@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -13,5 +14,35 @@ body{
 }
 
 .tn-header{
-    
+    background:#fff;
+}
+
+.tn-header::after{
+   content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.tn-logo{
+    float: left;
+}
+
+.tn-nav{
+    float: right; 
+}
+
+.tn-nav ul li{
+    display: inline-block;
+}
+
+.tn-nav ul li a{
+    padding: 10px 20px; 
+    text-decoration: none;
+    color: #303030;
+    line-height: 60px;
+}
+
+.tn-nav ul li a::hover{
+    color: #3e99ff;
 }
